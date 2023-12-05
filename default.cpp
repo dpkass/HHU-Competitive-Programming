@@ -1,5 +1,6 @@
 //
 // Created by dpkass
+// ID - NAME
 //
 
 #include <bits/stdc++.h>
@@ -10,8 +11,9 @@ using namespace std;
   ios_base::sync_with_stdio(0); \
   cin.tie(0);                   \
   cout.tie(0)
+#define all(coll) coll.begin(), coll.end()
 #define print(i) cout << i << endl
-#define print_col(a) for(auto item: a) cout << item << ' '
+#define print_coll(a) for(auto item: a) cout << item << ' '
 
 //#define int ll
 
